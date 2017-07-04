@@ -1,0 +1,21 @@
+package projects;
+
+import java.util.Scanner;
+
+public class GradingApp {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		Scanner grade = new Scanner(System.in);
+		System.out.print("Enter student's score: ");
+		int score = grade.nextInt();
+		System.out.println(" ");
+		System.out.print("Student grade: ");
+		
+		if ((score >= 90) && (score <= 100)){
+			System.out.print("A");
+		}
+	}
+
+}
